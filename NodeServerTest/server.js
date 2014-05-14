@@ -24,8 +24,6 @@ server.route({ method: 'GET', path: '/1', handler:indexHandler});
 server.route({ method: 'GET', path: '/2', handler:indexHandler});
 server.route({ method: 'GET', path: '/3', handler:indexHandler});
 
-
-
 server.start(function () {
     console.log("server running on port " + port.toString());
 });
